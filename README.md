@@ -4,7 +4,7 @@ Un sistema multi-agente orchestrato tramite grafi, basato su LangGraph, per task
 
 ## 🎯 Scopo
 Coordinare più agenti specializzati che cooperano in un flusso definito da un grafo:
-- **Retrieval Agent**: interroga un database vettoriale (es. ChromaDB)
+- **Retrieval Agent**: interroga un database vettoriale o direttamente contesto fornito da utente
 - **Classification Agent**: etichetta e classifica il contenuto
 - **Persona Simulator Agent**: simula comportamenti/risposte di un utente
 
