@@ -16,7 +16,7 @@ load_dotenv()
 llm = init_chat_model("google_genai:gemini-2.5-flash")
 
 class MessageClassifier(BaseModel):
-    message_type: Literal["emotional","logical"] = Field(
+    message_type: Literal["emotional","logical","dan"] = Field(
         ...,
         description="Classify if the message requires an emotional (therapist) or logical response"
     )
